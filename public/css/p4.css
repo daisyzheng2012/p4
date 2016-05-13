@@ -1,0 +1,38 @@
+.myLogo { padding: 10px; }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+}
+
+body {
+    background-color: #fff0e6;
+    color: #af5026;
+}
+
+.header-color {
+    background-color: #ffc299;
+}
+
+.button-geraldo-inverse {
+    background: #af5026 left center no-repeat;
+    background-size: cover;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: block !important;
+    margin-top:6px;
+    font-family: 'Stag-Medium-Web', serif !important;
+    font-size: 15px;
+    text-align:center;
+    height: 28px;
+    line-height: 28px;
+    padding: 0.025em 1.6em;
+    border-radius: 4px;
+    position: relative;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
