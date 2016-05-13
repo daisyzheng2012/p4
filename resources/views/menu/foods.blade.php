@@ -24,7 +24,7 @@
 @section('content')
 
     <div class="container-fluid bg-1 text-center">
-        <div class="imageContainer"><h2 class="word">Freshly baked breads</h2></div>
+        <div class="imageContainer"><h2 class="word">Fresh&Yummy</h2></div>
     <!-- <img src="images/bakedbreads/fresh_bread_bg.jpeg" alt="fresh bread bg" width="100%" height="200px"> -->
     </div>
     <br />
