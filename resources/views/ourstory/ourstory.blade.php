@@ -6,7 +6,7 @@
 
 @section('content')
   <div class="container-fluid bg-1 text-center">
-    <img src="images/daisycupcake.jpg" alt="daisycupcake" width="100%" height="200px">
+    <img src="images/pastriessweets/pastries_sweets_bg.jpeg" alt="daisycupcake" width="100%" height="200px">
   </div>
 <div class="content-inner-wrapper">
       <div class="content-inner">
