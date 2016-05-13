@@ -26,21 +26,12 @@
     <nav class="navbar navbar-default narbar-fixed-top">
         <div class="container-fluid header-color">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"><a href="/ourstory">OUR STORY</a></span>
-                <span class="icon-bar"><a href="/foods">ORDER ONLINE</a></span>
-                @if(Auth::check())
-                <span class="icon-bar"><li><a href="orderhistory">ORDERS HISTORY</a></li></span>
-                @endif
-                @if(Auth::check())
-                <span class="icon-bar"><li><a href="#">HEY {{Auth::user()->name}}</a></li></span>
-                <span class="icon-bar"><li><a href="/logout">LOG OUT</a></li></span>
-                @else
-                <span class="icon-bar"><li><a href="/register">JOIN NOW</a></li></span>
-                <span class="icon-bar"><li><a href="/login">SIGNN IN</a></li></span>               
-                @endif
-              </button>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
                 <a class="navbar-band myLogo" href="/">
                     <img src="images/cafe_logo_cp.png" alt="cafe logo" class="img-circle" height="50px">
                 </a>
